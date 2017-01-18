@@ -38,6 +38,10 @@ const commonWebpackConfig = {
 						'es2015',
 						'stage-0',
 						'stage-1'
+					],
+					plugins: [
+						'transform-decorators-legacy',
+						'transform-class-properties'
 					]
 				}
 			},
